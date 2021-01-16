@@ -21,11 +21,16 @@ Step1 環境構築
 まずはnodenv
 
 [https://qiita.com/1000ch/items/41ea7caffe8c42c5211c](https://qiita.com/1000ch/items/41ea7caffe8c42c5211c)
-[https://qiita.com/1000ch/items/41ea7caffe8c42c5211c](https://qiita.com/1000ch/items/41ea7caffe8c42c5211c)
 
-nodevnをダウンロードして動かせるようにすると
+まずは上のリンクを参考にしてnodevnをダウンロードしてnodeを動かせるようにする。
 
-npm(node package manger)が使用できるようになっていると思います。
+nodeをインストールするとnpm(node package manger)が使用できるようになっていると思います。
+
+```bash
+node -v
+npm -v
+```
+上のコマンドを打ち込んでバージョンが表示されていればうまくインストールできている。
 
 Nodeって何？
 --------
