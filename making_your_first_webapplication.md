@@ -102,12 +102,14 @@ npm install -g @vue/cli
 ```
 vue create my-project
 ```
+上のコマンドを押すといくつか質問を聞かれる
+
 
 question1
 ❯ Manually select features
 
 question2
-![[./sec1_1.png]]
+![](./sec1_1.png)
 
 question3
 - 3.x
@@ -116,15 +118,13 @@ question3
 これ以降の質問はすべてEnterを押すと、Vueの環境がmy-project/以下に自動で立ち上がる。
 
 
-
-
 ```
 cd my-project
 npm run serve
 ```
 
 ブラウザで `http://localhost:8080/` をアクセスするとサンプルが表示される。
-![[./sec1_2.png]]
+![](./sec1_2.png)
 
 
 参考サイト
